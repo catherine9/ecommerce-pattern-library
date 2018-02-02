@@ -1,3 +1,5 @@
 ---
-fontUrl: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+Code+Pro:400,700"
+fontUrl: "https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,400i" 
+backgroundColor: "#fff"
+accentColor: "#24619d"
 ---

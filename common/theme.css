@@ -1,14 +1,43 @@
 :root {
-  --color-primary: goldenrod;
-  --color-primary-light: gold;
-  --color-secondary: lightcoral;
-  --color-accent: greenyellow;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
-  --font-primary: "Alegreya Sans", "Trebuchet MS", arial, sans-serif;
-  --font-secondary: "Sourse Code Pro", menlo, consolas, monospace;
+  --color-primary-light: #effbff;
+  --color-primary: #24619d;
+  --color-secondary: #303742;
+  --color-accent: #5c839e;
+  --color-neutral: #e3e3e3;
+  --color-extra: #7bb556;
+  --font-primary: 'Lato', sans-serif;
+  --font-secondary: 'Merriweather', serif;
+  --background-color: #f1f1f1;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+h2 {
+  font-family: var(--font-primary);
+}
+
+h3{
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+h4{
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+}
+
+h5 {
+  font-family: var(--font-primary);
+}
+
+h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
 }
