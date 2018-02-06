@@ -18,5 +18,5 @@ colors:
   secondary: |
     The secondary colors represent things and stuff. Use them for links or when you need an extra pop.
   neutral: |
-  The neutral colors are an extra. Their real purpose is for the extra features such as body copy or for buttons. 
+    The neutral colors are an extra. Their real purpose is for the extra features such as body copy or for buttons. 
 ---

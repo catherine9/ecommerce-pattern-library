@@ -5,8 +5,8 @@
   --color-accent: #5c839e;
   --color-neutral: #e3e3e3;
   --color-extra: #7bb556;
-  --font-primary: 'Lato', sans-serif;
-  --font-secondary: 'Merriweather', serif;
+  --font-primary: "Lato", sans-serif;
+  --font-secondary: "Merriweather", serif;
   --background-color: #f1f1f1;
 }
 
@@ -23,12 +23,12 @@ h2 {
   font-family: var(--font-primary);
 }
 
-h3{
+h3 {
   font-family: var(--font-primary);
   color: var(--color-secondary);
 }
 
-h4{
+h4 {
   font-family: var(--font-secondary);
   color: var(--color-secondary);
 }
