@@ -1,0 +1,29 @@
+html {
+  font-family: sans-serif;
+}
+
+.flag-optional {
+  color: var(--color-primary);
+}
+
+.is-validated input:invalid,
+input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-primary-light);
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
