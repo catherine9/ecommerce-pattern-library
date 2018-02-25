@@ -14,7 +14,7 @@ input[type="checkbox"]:invalid + label::before {
 .error-message {
   display: none;
   background-color: var(--color-primary);
-  color: var(--color-primary);
+  color: var(--color-accent);
 }
 
 .error-message-highlighted {
