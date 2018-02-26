@@ -57,10 +57,172 @@
       </p>
     </div>
 
-    <div class="pad-t-1-2">
-      <button class="btn" type="submit">Submit</button>
-    </div>
-  </form>
+    <fieldset>
+        <legend class="bold max-length pad-t push giga">Address</legend>
+
+        <div class="wrapper grid grid-middle pad-t-1-4">
+          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="address">Street address</label>
+            <input id="address" type="text">
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+            <label class="push-1-8" for="city">City</label>
+            <input id="city" name="city">
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+            <label class="push-1-8" for="province">Province</label>
+            <select name="province" id="province">
+              <option value="">Select a province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+            <label class="push-1-8" for="code">Postal code</label>
+            <input class="push-0" id="code" type="text">
+          </div>
+        </div>
+      </fieldset>
+
+      <hr>
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend class="giga pad-t gutter-1-8">Input the following</legend>
+
+        <div class="grid pad-b-1-2">
+          <div class="push-1-4 unit xs-1 s-1 m-1-2">
+            <label class="push" for="age-animal">What is your age</label>
+            <select name="age-animal" id="age-animal">
+              <option value="">Select age</option>
+              <option>5-8 months</option>
+              <option>9-12 months</option>
+              <option>2-3 years</option>
+              <option>4-6 years</option>
+              <option>7+ years</option>
+            </select>
+          </div>
+
+          <div class="push-1-4 unit xs-1 s-1 m-1-2">
+            <label class="push" for="level">Skill Level</label>
+            <select name="level" id="level">
+              <option value="">Select level</option>
+              <option>Beginner</option>
+              <option>Intermidiate</option>
+              <option>Expert</option>
+            </select>
+          </div>
+
+          <div class="push-1-4 unit xs-1 s-1 m-1-2">
+            <label class="push" for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="">Select gender</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+
+          <div class="push-1-4 unit xs-1 s-1 m-1-2">
+            <label class="push" for="size">Size</label>
+            <select name="size" id="size">
+              <option value="">Select size</option>
+              <option>Small</option>
+              <option>Medium</option>
+              <option>Large</option>
+            </select>
+          </div>
+        </div>
+        <section>
+          <a class="link" href="#" aria-label="Read more about activites about dogs">Read more…</a>
+        </section>
+      </fieldset>
+
+      <hr>
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend class="giga pad-b-1-4 pad-t">Have you ever sold your art online before?</legend>
+        <div class="pad-b-1-2">
+          <input id="driver-yes" type="radio" name="fav-button">
+          <label for="driver-yes">Yes</label>
+
+          <input id="driver-no" type="radio" name="fav-button">
+          <label for="driver-no">No</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend class="giga pad-b-1-4 pad-t">Do you stick to one type of art or multiple?</legend>
+        <div class="pad-b-1-2">
+          <input id="truck-yes" type="radio" name="fav-pick">
+          <label for="truck-yes">Yes</label>
+
+          <input id="truck-no" type="radio" name="fav-pick">
+          <label for="truck-no">No</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend class="giga pad-b-1-4 pad-t">Do you prefer online suggestions?</legend>
+        <div class="pad-b-1-2">
+          <input id="aid-yes" type="radio" name="choose-one">
+          <label for="aid-yes">Yes</label>
+
+          <input id="aid-no" type="radio" name="choose-one">
+          <label for="aid-no">No</label>
+        </div>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend class="bold max-length pad-t push giga">Make your Payment</legend>
+
+        <div class="wrapper grid grid-middle pad-t-1-4">
+          <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label class="push-1-8" for="card">Card Number</label>
+            <input id="card" type="number">
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+            <label class="push-1-8" for="maiden">Mothers maiden name</label>
+            <input id="maiden" name="city">
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+            <label class="push-1-8" for="information">Payment</label>
+            <select name="payment" id="information">
+              <option value="">Select a payment</option>
+              <option>Master</option>
+              <option>Visa</option>
+            </select>
+          </div>
+          <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+            <label class="push-1-8" for="expire">Expiration date</label>
+            <input class="push-0" id="expire" type="number">
+          </div>
+        </div>
+      </fieldset>
+
+      <div>
+        <hr>
+      </div>
+      <fieldset class="wrapper radio gutter-1-2">
+        <legend>Please let us know any comments or questions you may have.</legend>
+        <div class="push">
+          <label for="info">More information</label>
+          <textarea class="push-2" name="info" id="info"></textarea>
+        </div>
+        <div>
+          <hr>
+        </div>
+        <div class="text-center push">
+          <button class="btn btn-light" type="submit">Submit Application</button>
+        </div>
+      </fieldset>
 
   <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>

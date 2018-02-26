@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1519647792269
+ * @version 1519649344900
  */
-const patternManifest_1519647792268 = {
+const patternManifest_1519649344899 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -731,7 +731,14 @@ const patternManifest_1519647792268 = {
           "localPath": "patterns/search/search-bar.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/README.md",
+          "localPath": "patterns/search/README.md"
+        }
+      ],
       "css": []
     }
   ],
@@ -755,5 +762,5 @@ const patternManifest_1519647792268 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519647792268);
+patternBotIncludes(patternManifest_1519649344899);
 }());

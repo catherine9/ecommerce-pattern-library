@@ -3,7 +3,7 @@ html {
   font-family: var(--font-primary);
 }
 
-.search-bar {
+.topnav {
   color: var(--color-primary);
   float: right;
   padding: 6px;

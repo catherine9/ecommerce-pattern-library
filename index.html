@@ -1232,6 +1232,9 @@
               <code><pre id="cards-icon-card-code-sample-copy-chunk">&lt;div class="card island-1-2 text-center"&gt;
   &lt;h2 class="push-1-4">This is an icon card&lt;/h2>
   &lt;p class="push-0">The card will have the icon dislayed&lt;/p>
+  &lt;i class="icon i-24">
+        &lt;svg>&lt;use xlink:href="../../images/icons.svg#"/>&lt;/svg>
+      &lt;/i>
 &lt;/div>
 </pre></code>
             </div>
@@ -1349,9 +1352,173 @@
     &lt;/p>
   &lt;/div>
 
-  &lt;div class="pad-t-1-2">
-    &lt;button class="btn" type="submit">Submit&lt;/button>
+  &lt;fieldset>
+    &lt;legend class="bold max-length pad-t push giga">Address&lt;/legend>
+
+    &lt;div class="wrapper grid grid-middle pad-t-1-4">
+      &lt;div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        &lt;label class="push-1-8" for="address">Street address&lt;/label>
+        &lt;input id="address" type="text">
+      &lt;/div>
+      &lt;div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+        &lt;label class="push-1-8" for="city">City&lt;/label>
+        &lt;input id="city" name="city">
+      &lt;/div>
+      &lt;div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+        &lt;label class="push-1-8" for="province">Province&lt;/label>
+        &lt;select name="province" id="province">
+          &lt;option value="">Select a province&lt;/option>
+          &lt;option>Alberta&lt;/option>
+          &lt;option>British Columbia&lt;/option>
+          &lt;option>Manitoba&lt;/option>
+          &lt;option>New Brunswick&lt;/option>
+          &lt;option>Newfoundland &amp; Labrador&lt;/option>
+          &lt;option>Northwest Territories&lt;/option>
+          &lt;option>Nova Scotia&lt;/option>
+          &lt;option>Nunavut&lt;/option>
+          &lt;option>Ontario&lt;/option>
+          &lt;option>Prince Edward Island&lt;/option>
+          &lt;option>Qu&#xE9;bec&lt;/option>
+          &lt;option>Saskatchewan&lt;/option>
+          &lt;option>Yukon&lt;/option>
+        &lt;/select>
+      &lt;/div>
+      &lt;div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+        &lt;label class="push-1-8" for="code">Postal code&lt;/label>
+        &lt;input class="push-0" id="code" type="text">
+      &lt;/div>
+    &lt;/div>
+  &lt;/fieldset>
+
+  &lt;hr>
+  &lt;fieldset class="wrapper radio gutter-1-2">
+    &lt;legend class="giga pad-t gutter-1-8">Input the following&lt;/legend>
+
+    &lt;div class="grid pad-b-1-2">
+      &lt;div class="push-1-4 unit xs-1 s-1 m-1-2">
+        &lt;label class="push" for="age-animal">What is your age&lt;/label>
+        &lt;select name="age-animal" id="age-animal">
+          &lt;option value="">Select age&lt;/option>
+          &lt;option>5-8 months&lt;/option>
+          &lt;option>9-12 months&lt;/option>
+          &lt;option>2-3 years&lt;/option>
+          &lt;option>4-6 years&lt;/option>
+          &lt;option>7+ years&lt;/option>
+        &lt;/select>
+      &lt;/div>
+
+      &lt;div class="push-1-4 unit xs-1 s-1 m-1-2">
+        &lt;label class="push" for="level">Skill Level&lt;/label>
+        &lt;select name="level" id="level">
+          &lt;option value="">Select level&lt;/option>
+          &lt;option>Beginner&lt;/option>
+          &lt;option>Intermidiate&lt;/option>
+          &lt;option>Expert&lt;/option>
+        &lt;/select>
+      &lt;/div>
+
+      &lt;div class="push-1-4 unit xs-1 s-1 m-1-2">
+        &lt;label class="push" for="gender">Gender&lt;/label>
+        &lt;select name="gender" id="gender">
+          &lt;option value="">Select gender&lt;/option>
+          &lt;option>Male&lt;/option>
+          &lt;option>Female&lt;/option>
+        &lt;/select>
+      &lt;/div>
+
+      &lt;div class="push-1-4 unit xs-1 s-1 m-1-2">
+        &lt;label class="push" for="size">Size&lt;/label>
+        &lt;select name="size" id="size">
+          &lt;option value="">Select size&lt;/option>
+          &lt;option>Small&lt;/option>
+          &lt;option>Medium&lt;/option>
+          &lt;option>Large&lt;/option>
+        &lt;/select>
+      &lt;/div>
+    &lt;/div>
+    &lt;section>
+      &lt;a class="link" href="#" aria-label="Read more about activites about dogs">Read more&#x2026;&lt;/a>
+    &lt;/section>
+  &lt;/fieldset>
+
+  &lt;hr>
+  &lt;fieldset class="wrapper radio gutter-1-2">
+    &lt;legend class="giga pad-b-1-4 pad-t">Have you ever sold your art online before?&lt;/legend>
+    &lt;div class="pad-b-1-2">
+      &lt;input id="driver-yes" type="radio" name="fav-button">
+      &lt;label for="driver-yes">Yes&lt;/label>
+
+      &lt;input id="driver-no" type="radio" name="fav-button">
+      &lt;label for="driver-no">No&lt;/label>
+    &lt;/div>
+  &lt;/fieldset>
+
+  &lt;fieldset class="wrapper radio gutter-1-2">
+    &lt;legend class="giga pad-b-1-4 pad-t">Do you stick to one type of art or multiple?&lt;/legend>
+    &lt;div class="pad-b-1-2">
+      &lt;input id="truck-yes" type="radio" name="fav-pick">
+      &lt;label for="truck-yes">Yes&lt;/label>
+
+      &lt;input id="truck-no" type="radio" name="fav-pick">
+      &lt;label for="truck-no">No&lt;/label>
+    &lt;/div>
+  &lt;/fieldset>
+
+  &lt;fieldset class="wrapper radio gutter-1-2">
+    &lt;legend class="giga pad-b-1-4 pad-t">Do you prefer online suggestions?&lt;/legend>
+    &lt;div class="pad-b-1-2">
+      &lt;input id="aid-yes" type="radio" name="choose-one">
+      &lt;label for="aid-yes">Yes&lt;/label>
+
+      &lt;input id="aid-no" type="radio" name="choose-one">
+      &lt;label for="aid-no">No&lt;/label>
+    &lt;/div>
+  &lt;/fieldset>
+  &lt;hr>
+  &lt;fieldset>
+    &lt;legend class="bold max-length pad-t push giga">Make your Payment&lt;/legend>
+
+    &lt;div class="wrapper grid grid-middle pad-t-1-4">
+      &lt;div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        &lt;label class="push-1-8" for="card">Card Number&lt;/label>
+        &lt;input id="card" type="number">
+      &lt;/div>
+      &lt;div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+        &lt;label class="push-1-8" for="maiden">Mothers maiden name&lt;/label>
+        &lt;input id="maiden" name="city">
+      &lt;/div>
+      &lt;div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+        &lt;label class="push-1-8" for="information">Payment&lt;/label>
+        &lt;select name="payment" id="information">
+          &lt;option value="">Select a payment&lt;/option>
+          &lt;option>Master&lt;/option>
+          &lt;option>Visa&lt;/option>
+        &lt;/select>
+      &lt;/div>
+      &lt;div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+        &lt;label class="push-1-8" for="expire">Expiration date&lt;/label>
+        &lt;input class="push-0" id="expire" type="number">
+      &lt;/div>
+    &lt;/div>
+  &lt;/fieldset>
+
+  &lt;div>
+    &lt;hr>
   &lt;/div>
+  &lt;fieldset class="wrapper radio gutter-1-2">
+    &lt;legend>Please let us know any comments or questions you may have.&lt;/legend>
+    &lt;div class="push">
+      &lt;label for="info">More information&lt;/label>
+      &lt;textarea class="push-2" name="info" id="info">&lt;/textarea>
+    &lt;/div>
+    &lt;div>
+      &lt;hr>
+    &lt;/div>
+    &lt;div class="text-center push">
+      &lt;button class="btn btn-light" type="submit">Submit Application&lt;/button>
+    &lt;/div>
+  &lt;/fieldset>
+
 &lt;/form>
 </pre></code>
             </div>
@@ -1650,7 +1817,11 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="search-search-bar-code-sample-copy-chunk">&lt;div class="search-bar"&gt;
+              <code><pre id="search-search-bar-code-sample-copy-chunk">&lt;div class="topnav"&gt;
+  &lt;a class="active" href="#about">About&lt;/a>
+  &lt;a href="#prices">Prices&lt;/a>
+  &lt;a href="#resources">Resources&lt;/a>
+  &lt;a href="#contact">Contact&lt;/a>
   &lt;input type="text" placeholder="Search..">
 &lt;/div>
 </pre></code>
