@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1519612142564
+ * @version 1519645924885
  */
-const patternManifest_1519612142563 = {
+const patternManifest_1519645924885 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -566,7 +566,8 @@ const patternManifest_1519612142563 = {
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/buttons",
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/cards",
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms",
-      "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos"
+      "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos",
+      "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search"
     ],
     "pages": []
   },
@@ -635,14 +636,7 @@ const patternManifest_1519612142563 = {
           "localPath": "patterns/buttons/README.md"
         }
       ],
-      "css": [
-        {
-          "name": "buttons",
-          "namePretty": "Buttons",
-          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/buttons/buttons.css",
-          "localPath": "patterns/buttons/buttons.css"
-        }
-      ]
+      "css": []
     },
     {
       "name": "cards",
@@ -672,14 +666,7 @@ const patternManifest_1519612142563 = {
           "localPath": "patterns/cards/README.md"
         }
       ],
-      "css": [
-        {
-          "name": "cards",
-          "namePretty": "Cards",
-          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/cards/cards.css",
-          "localPath": "patterns/cards/cards.css"
-        }
-      ]
+      "css": []
     },
     {
       "name": "forms",
@@ -707,7 +694,43 @@ const patternManifest_1519612142563 = {
       "name": "photos",
       "namePretty": "Photos",
       "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos",
-      "html": [],
+      "html": [
+        {
+          "name": "photo-line",
+          "namePretty": "Photo line",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos/photo-line.html",
+          "localPath": "patterns/photos/photo-line.html",
+          "readme": {}
+        },
+        {
+          "name": "product-shots",
+          "namePretty": "Product shots",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos/product-shots.html",
+          "localPath": "patterns/photos/product-shots.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos/README.md",
+          "localPath": "patterns/photos/README.md"
+        }
+      ],
+      "css": []
+    },
+    {
+      "name": "search",
+      "namePretty": "Search",
+      "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search",
+      "html": [
+        {
+          "name": "search-bar",
+          "namePretty": "Search bar",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/search-bar.html",
+          "localPath": "patterns/search/search-bar.html"
+        }
+      ],
       "md": [],
       "css": []
     }
@@ -732,5 +755,5 @@ const patternManifest_1519612142563 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519612142563);
+patternBotIncludes(patternManifest_1519645924885);
 }());

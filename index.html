@@ -187,6 +187,16 @@
                   </div>
                 </a>
               </li>
+              <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="search" href="#search">
+                  <div class="relative">
+                    <span>Search</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
           <li class="pad-t-1-2" role="presentation">
             <button class="nav-show-all gutter pad-t-1-4 pad-b-1-4 block kilo" id="nav-show-all" aria-pressed="false" title="Show all patterns" aria-label="Show all patterns">
               <span class="nav-show-all-wrap relative block">Show all</span>
@@ -1351,26 +1361,251 @@
 
 </section>
 
-        <section class="pattern" id="photos" role="tabpanel" hidden aria-hidden="true" style="">
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+        <section class="pattern" id="photos" role="tabpanel" hidden aria-hidden="true" >
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
     <h2 class="pattern-name exa push-1-4" style="color: #24619d; font-family: &quot;Merriweather&quot;, serif;">Photos</h2>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#photos--photo-line">Photo line</a></li>
+            <li><a href="#photos--product-shots">Product shots</a></li>
+        </ol>
+      </nav>
+  </div>
+
+      <div class="pattern-desc milli island" >
+        <div class="max-length"><p>The photos displayed will explain what the user is able to do from the homepage. Brief description will be added on the side to explain what this site does.</p>
+</div>
+      </div>
+
+  
+
+    <div class="pattern-details " id="photos--photo-line" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Photo line</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="photos-photo-line-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="photos/photo-line" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/photos/photo-line.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The photos displayed will explain what the user is able to do from the homepage. Brief description will be added on the side to explain what this site does.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/photos/photo-line.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="photos-photo-line-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#photos-photo-line-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="photos-photo-line-code-sample-copy-chunk">&lt;section id="art" tabindex="0"&gt;
+  &lt;div class="wrapper gutter-1-2">
+    &lt;h1 class="push-0">What we do&lt;/h1>
+    &lt;p class="mega max-length not-centered">DigiArt helps the artist sell and be safe online.&lt;/p>
+    &lt;ul class="grid list-group">
+      &lt;li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
+        &lt;img class="img-flex push" src="../../images/image-1.jpg" alt="" aria-details="security">
+        &lt;div class="gutter-1-2" id="security">
+          &lt;h2 class="mega push-0">Security&lt;/h2>
+          &lt;p>We care about your art so we are here to make sure your art is secured from online thieves&lt;/p>
+        &lt;/div>
+      &lt;/li>
+      &lt;li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
+        &lt;img class="img-flex push" src="../../images/image-2.jpg" alt="" aria-details="suggestions">
+        &lt;div class="gutter-1-2" id="suggestions">
+          &lt;h2 class="mega push-0">New suggestions everyday&lt;/h2>
+          &lt;p>We can provide you new suggestions to get ideas flowing. Send us your email and you can revieve weekly design suggestions.&lt;/p>
+        &lt;/div>
+      &lt;/li>
+    &lt;/ul>
+  &lt;/div>
+&lt;/section>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="photos--product-shots" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Product shots</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="photos-product-shots-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="photos/product-shots" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/photos/product-shots.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/photos/product-shots.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="photos-product-shots-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#photos-product-shots-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="photos-product-shots-code-sample-copy-chunk">&lt;section class="grid"&gt;
+  &lt;div class="unit xs-1 s-1 m-3-4 l-3-4 xl-3-4">
+    &lt;figure class="relative push-0">
+      &lt;div class="embed embed-3by1">
+        &lt;img class="img-flex embed-item" src="../../images/placeholder-3by1.svg" alt="">
+      &lt;/div>
+      &lt;figcaption class="absolute gutter push w-1 pin-bc pad-b-1-2 pad-t-1-2">Image caption 1&lt;/figcaption>
+    &lt;/figure>
+  &lt;/div>
+
+  &lt;div class="unit xs-1 s-1 m-3-4 l-3-4 xl-3-4">
+    &lt;figure class="relative push-0">
+      &lt;div class="embed embed-3by1">
+        &lt;img class="img-flex embed-item" src="../../images/placeholder-3by1.svg" alt="">
+      &lt;/div>
+      &lt;figcaption class="absolute gutter push w-1 pin-bc pad-b-1-2 pad-t-1-2">Image caption 1&lt;/figcaption>
+    &lt;/figure>
+  &lt;/div>
+
+  &lt;div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4">
+    &lt;figure class="relative push-0">
+      &lt;div class="embed embed-1by1">
+        &lt;img class="img-flex embed-item" src="../../images/placeholder-1by1.svg" alt="">
+      &lt;/div>
+      &lt;figcaption class="absolute gutter push w-1 pin-bc pad-b-1-2 pad-t-1-2">Image caption two&lt;/figcaption>
+    &lt;/figure>
+  &lt;/div>
+
+  &lt;div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 xl-1-3">
+    &lt;figure class="relative push-0">
+      &lt;div class="embed embed-3by2">
+        &lt;img class="img-flex embed-item" src="../../images/placeholder-3by2.svg" alt="">
+      &lt;/div>
+      &lt;figcaption class="absolute gutter-1-2 push w-1 pin-bc pad-b-1-2 pad-t-1-2">Caption for image three is longer&lt;/figcaption>
+    &lt;/figure>
+  &lt;/div>
+
+  &lt;hr>
+
+  &lt;div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 xl-1-3">
+    &lt;figure class="relative push-0">
+      &lt;div class="embed embed-3by2">
+        &lt;img class="img-flex embed-item" src="../../images/placeholder-3by2.svg" alt="">
+      &lt;/div>
+      &lt;figcaption class="absolute gutter-1-2 push w-1 pin-bc pad-b-1-2 pad-t-1-2">Image caption 4&lt;/figcaption>
+    &lt;/figure>
+  &lt;/div>
+
+  &lt;div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+    &lt;figure class="relative push-0">
+      &lt;div class="embed embed-3by2">
+        &lt;img class="img-flex embed-item" src="../../images/placeholder-3by2.svg" alt="">
+      &lt;/div>
+      &lt;figcaption class="absolute gutter push w-1 pin-bc pad-b-1-2 pad-t-1-2">Image caption V&lt;/figcaption>
+    &lt;/figure>
+  &lt;/div>
+
+&lt;/section>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="search" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #24619d; font-family: &quot;Merriweather&quot;, serif;">Search</h2>
         <ul class="list-group-inline gutter absolute pin-cr">
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="photos--code-sample">
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="search-search-bar-code-sample">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-code"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="photos/" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="search/search-bar" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/search/search-bar.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-pop-out"></use></svg>
                 </i>
@@ -1382,6 +1617,41 @@
 
   
 
+    <div class="pattern-details " id="search--search-bar" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/search/search-bar.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="search-search-bar-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#search-search-bar-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="search-search-bar-code-sample-copy-chunk">
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
 
 </section>
 
