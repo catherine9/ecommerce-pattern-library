@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Designing Form Errors</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/modules.css">
+  <link rel="stylesheet" href="css/type.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/form.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,400i" rel="stylesheet">
+</head>
+<body>
+  <fieldset>
+    <legend class="giga pad-t gutter-1-4">Input your province</legend>
+    <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+      <label class="push-1-8" for="province">Province</label>
+      <select name="province" id="province">
+        <option value="">Select a province</option>
+        <option>Alberta</option>
+        <option>British Columbia</option>
+        <option>Manitoba</option>
+        <option>New Brunswick</option>
+        <option>Newfoundland & Labrador</option>
+        <option>Northwest Territories</option>
+        <option>Nova Scotia</option>
+        <option>Nunavut</option>
+        <option>Ontario</option>
+        <option>Prince Edward Island</option>
+        <option>Québec</option>
+        <option>Saskatchewan</option>
+        <option>Yukon</option>
+      </select>
+    </div>
+  </fieldset>
+
+    <fieldset class="wrapper radio gutter-1-2">
+      <legend class="giga pad-t gutter-1-4">Input the following</legend>
+
+      <div class="grid pad-b-1-2">
+        <div class="push-1-4 unit xs-1 s-1 m-1-2">
+          <label class="push" for="age-animal">What is your age</label>
+          <select name="age-animal" id="age-animal">
+            <option value="">Select age</option>
+            <option>12-17</option>
+            <option>18-25</option>
+            <option>26-30</option>
+            <option>31-45</option>
+            <option>50+</option>
+          </select>
+        </div>
+
+        <div class="push-1-4 unit xs-1 s-1 m-1-2">
+          <label class="push" for="level">Skill Level</label>
+          <select name="level" id="level">
+            <option value="">Select level</option>
+            <option>Beginner</option>
+            <option>Intermidiate</option>
+            <option>Expert</option>
+          </select>
+        </div>
+
+        <div class="push-1-4 unit xs-1 s-1 m-1-2">
+          <label class="push" for="gender">Gender</label>
+          <select name="gender" id="gender">
+            <option value="">Select gender</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+
+        <div class="push-1-4 unit xs-1 s-1 m-1-2">
+          <label class="push" for="size">Platform</label>
+          <select name="size" id="size">
+            <option value="">Select media platform</option>
+            <option>Mac</option>
+            <option>PC</option>
+          </select>
+        </div>
+      </div>
+      <section>
+        <a class="link" href="#" aria-label="Read more about activites about dogs">Read more…</a>
+      </section>
+    </fieldset>
+</body>
+</html>

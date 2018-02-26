@@ -27,3 +27,23 @@ input[type="checkbox"]:invalid + label::before {
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
+
+label {
+  display: block;
+}
+
+input, select, textarea {
+  border-color: #000;
+}
+
+fieldset {
+  border: none;
+}
+
+hr {
+  border-color: #999;
+}
+
+.opt {
+  color: #000;
+}

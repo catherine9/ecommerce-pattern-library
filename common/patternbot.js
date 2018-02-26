@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1519649454463
+ * @version 1519657074723
  */
-const patternManifest_1519649454462 = {
+const patternManifest_1519657074723 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -674,10 +674,34 @@ const patternManifest_1519649454462 = {
       "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
+          "name": "box-and-submit",
+          "namePretty": "Box and submit",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms/box-and-submit.html",
+          "localPath": "patterns/forms/box-and-submit.html"
+        },
+        {
+          "name": "drop-down",
+          "namePretty": "Drop down",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms/drop-down.html",
+          "localPath": "patterns/forms/drop-down.html"
+        },
+        {
           "name": "form",
           "namePretty": "Form",
           "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms/form.html",
           "localPath": "patterns/forms/form.html"
+        },
+        {
+          "name": "payment",
+          "namePretty": "Payment",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms/payment.html",
+          "localPath": "patterns/forms/payment.html"
+        },
+        {
+          "name": "radio-button",
+          "namePretty": "Radio button",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms/radio-button.html",
+          "localPath": "patterns/forms/radio-button.html"
         }
       ],
       "md": [
@@ -762,5 +786,5 @@ const patternManifest_1519649454462 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519649454462);
+patternBotIncludes(patternManifest_1519657074723);
 }());

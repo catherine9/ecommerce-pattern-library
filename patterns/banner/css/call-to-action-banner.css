@@ -1,21 +1,5 @@
-html {
-  font-family: var(--font-primary);
-}
 
-.btn-ghost {
-  color: var(--color-primary);
-  background-color: transparent;
-}
-
-.btn-ghost:hover {
-  background-color: var(-color-primary);
-}
-
-img {
-  width: 350px;
-}
-
-.banner {
+.action {
   position: relative;
   background-image: linear-gradient(25deg, var(--color-accent) 50%);
   background-repeat: no-repeat;
@@ -23,6 +7,14 @@ img {
 
 .info {
   position: absolute;
-  bottom: 2%;
+  bottom: 1%;
   left: 15%;
+}
+
+h1 {
+  color: var(--color-accent);
+}
+
+p {
+  color: var(--color-neutral);
 }
