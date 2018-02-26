@@ -9,3 +9,8 @@ h1 {
 p {
   font-family: var(--font-secondary);
 }
+
+figcaption {
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+}
