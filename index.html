@@ -1230,8 +1230,16 @@
               <code><pre id="cards-icon-card-code-sample-copy-chunk">&lt;div class="card island-1-2 text-center"&gt;
   &lt;h2 class="push-1-4">This is an icon card&lt;/h2>
   &lt;p class="push-0">The card will have the icon dislayed&lt;/p>
-  &lt;i class="icon i-128 push-1-2">
-      &lt;svg>&lt;use xlink:href="../../images/icon.svg#sell"/>&lt;/svg>
+  &lt;i class="icon i-128">
+      &lt;svg>&lt;use xlink:href="../../images/icons.svg#sell"/>&lt;/svg>
+    &lt;/i>
+&lt;/div>
+
+&lt;div class="card island-1-2 pad-t-1-2 text-center">
+  &lt;h2 class="push-1-4">This is an icon card-2&lt;/h2>
+  &lt;p class="push-0">The card will have the icon dislayed&lt;/p>
+  &lt;i class="icon i-128">
+      &lt;svg>&lt;use xlink:href="../../images/icons.svg#design"/>&lt;/svg>
     &lt;/i>
 &lt;/div>
 </pre></code>
@@ -1247,6 +1255,7 @@
     <h2 class="pattern-name exa push-1-4" style="color: #24619d; font-family: &quot;Merriweather&quot;, serif;">Forms</h2>
       <nav class="pattern-nav">
         <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#forms--agree">Agree</a></li>
             <li><a href="#forms--box-and-submit">Box and submit</a></li>
             <li><a href="#forms--drop-down">Drop down</a></li>
             <li><a href="#forms--form">Form</a></li>
@@ -1259,6 +1268,74 @@
 
   
 
+    <div class="pattern-details " id="forms--agree" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Agree</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-agree-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/agree" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/agree.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/agree.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-agree-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-agree-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-agree-code-sample-copy-chunk">&lt;div class="push-1-2 pad-t-1-2"&gt;
+  &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
+  &lt;label for="agree">Do you agree to the following terms?&lt;/label>
+  &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/extra.svg#error"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please agree&lt;/span>
+  &lt;/p>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details " id="forms--box-and-submit" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Box and submit</h3>
@@ -1319,9 +1396,6 @@
   &lt;div class="push">
     &lt;label for="info">More information&lt;/label>
     &lt;textarea class="push-2" name="info" id="info">&lt;/textarea>
-  &lt;/div>
-  &lt;div>
-    &lt;hr>
   &lt;/div>
   &lt;div class="text-center push">
     &lt;button class="btn btn-light" type="submit">Submit&lt;/button>
@@ -1410,54 +1484,7 @@
   &lt;/div>
 &lt;/fieldset>
 
-&lt;fieldset class="wrapper radio gutter-1-2">
-  &lt;legend class="giga pad-t gutter-1-4">Input the following&lt;/legend>
-
-  &lt;div class="grid pad-b-1-2">
-    &lt;div class="push-1-4 unit xs-1 s-1 m-1-2">
-      &lt;label class="push" for="age-animal">What is your age&lt;/label>
-      &lt;select name="age-animal" id="age-animal">
-        &lt;option value="">Select age&lt;/option>
-        &lt;option>12-17&lt;/option>
-        &lt;option>18-25&lt;/option>
-        &lt;option>26-30&lt;/option>
-        &lt;option>31-45&lt;/option>
-        &lt;option>50+&lt;/option>
-      &lt;/select>
-    &lt;/div>
-
-    &lt;div class="push-1-4 unit xs-1 s-1 m-1-2">
-      &lt;label class="push" for="level">Skill Level&lt;/label>
-      &lt;select name="level" id="level">
-        &lt;option value="">Select level&lt;/option>
-        &lt;option>Beginner&lt;/option>
-        &lt;option>Intermidiate&lt;/option>
-        &lt;option>Expert&lt;/option>
-      &lt;/select>
-    &lt;/div>
-
-    &lt;div class="push-1-4 unit xs-1 s-1 m-1-2">
-      &lt;label class="push" for="gender">Gender&lt;/label>
-      &lt;select name="gender" id="gender">
-        &lt;option value="">Select gender&lt;/option>
-        &lt;option>Male&lt;/option>
-        &lt;option>Female&lt;/option>
-      &lt;/select>
-    &lt;/div>
-
-    &lt;div class="push-1-4 unit xs-1 s-1 m-1-2">
-      &lt;label class="push" for="size">Platform&lt;/label>
-      &lt;select name="size" id="size">
-        &lt;option value="">Select media platform&lt;/option>
-        &lt;option>Mac&lt;/option>
-        &lt;option>PC&lt;/option>
-      &lt;/select>
-    &lt;/div>
-  &lt;/div>
-  &lt;section>
-    &lt;a class="link" href="#" aria-label="Read more about activites about dogs">Read more&#x2026;&lt;/a>
-  &lt;/section>
-&lt;/fieldset>
+&lt;a class="link" href="#" aria-label="Read more about activites about dogs">Read more&#x2026;&lt;/a>
 </pre></code>
             </div>
           </div>
@@ -1534,38 +1561,6 @@
       &lt;span class="icon-label"> Please provide a name&lt;/span>
     &lt;/p>
   &lt;/div>
-  &lt;div class="push-1-2">
-    &lt;label for="name">Last Name&lt;/label>
-    &lt;input id="name" required aria-describedby="name-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/extra.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label"> Please provide a name&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="email">Email&lt;/label>
-    &lt;input type="email" id="email" required aria-describedby="email-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/extra.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="url">Phone number &lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
-    &lt;input type="url" id="url">
-  &lt;/div>
-
-  &lt;div class="push-1-2 pad-t-1-2">
-    &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
-    &lt;label for="agree">Do you agree to the following terms?&lt;/label>
-    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/extra.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please agree&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
 &lt;/form>
 </pre></code>
             </div>
@@ -1628,29 +1623,19 @@
                 </i>
               </button>
               <code><pre id="forms-payment-code-sample-copy-chunk">&lt;fieldset&gt;
-  &lt;legend class="bold max-length pad-t push giga">Make your Payment&lt;/legend>
-
-  &lt;div class="wrapper grid grid-middle pad-t-1-4">
-    &lt;div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-      &lt;label class="push-1-8" for="card">Card Number&lt;/label>
-      &lt;input id="card" type="number">
-    &lt;/div>
-    &lt;div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
-      &lt;label class="push-1-8" for="maiden">Mothers maiden name&lt;/label>
-      &lt;input id="maiden" name="city">
-    &lt;/div>
-    &lt;div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
-      &lt;label class="push-1-8" for="information">Payment&lt;/label>
-      &lt;select name="payment" id="information">
-        &lt;option value="">Select a payment&lt;/option>
-        &lt;option>Master&lt;/option>
-        &lt;option>Visa&lt;/option>
-      &lt;/select>
-    &lt;/div>
-    &lt;div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
-      &lt;label class="push-1-8" for="expire">Expiration date&lt;/label>
-      &lt;input class="push-0" id="expire" type="number">
-    &lt;/div>
+  &lt;div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+    &lt;label class="push-1-8" for="information">Payment&lt;/label>
+    &lt;select name="payment" id="information">
+      &lt;option value="">Select a payment&lt;/option>
+      &lt;option>Master&lt;/option>
+      &lt;option>Visa&lt;/option>
+    &lt;/select>
+    &lt;i class="icon i-48">
+          &lt;svg>&lt;use xlink:href="../../images/payment.svg#mastercard"/>&lt;/svg>
+        &lt;/i>
+    &lt;i class="icon i-48">
+          &lt;svg>&lt;use xlink:href="../../images/payment.svg#visa"/>&lt;/svg>
+        &lt;/i>
   &lt;/div>
 &lt;/fieldset>
 </pre></code>
@@ -1721,28 +1706,6 @@
 
     &lt;input id="driver-no" type="radio" name="fav-button">
     &lt;label for="driver-no">No&lt;/label>
-  &lt;/div>
-&lt;/fieldset>
-
-&lt;fieldset class="wrapper radio gutter-1-2">
-  &lt;legend class="giga pad-b-1-4 pad-t">Do you stick to one type of art or multiple?&lt;/legend>
-  &lt;div class="pad-b-1-2">
-    &lt;input id="truck-yes" type="radio" name="fav-pick">
-    &lt;label for="truck-yes">Yes&lt;/label>
-
-    &lt;input id="truck-no" type="radio" name="fav-pick">
-    &lt;label for="truck-no">No&lt;/label>
-  &lt;/div>
-&lt;/fieldset>
-
-&lt;fieldset class="wrapper radio gutter-1-2">
-  &lt;legend class="giga pad-b-1-4 pad-t">Do you prefer online suggestions?&lt;/legend>
-  &lt;div class="pad-b-1-2">
-    &lt;input id="aid-yes" type="radio" name="choose-one">
-    &lt;label for="aid-yes">Yes&lt;/label>
-
-    &lt;input id="aid-no" type="radio" name="choose-one">
-    &lt;label for="aid-no">No&lt;/label>
   &lt;/div>
 &lt;/fieldset>
 </pre></code>
@@ -1938,7 +1901,16 @@
   &lt;div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4">
     &lt;figure class="relative push-0">
       &lt;div class="embed embed-1by1">
-        &lt;img class="img-flex embed-item" src="../../images/placeholder-1by1.svg" alt="">
+        &lt;img class="img-flex embed-item" src="../../images/image-5.jpg" alt="">
+      &lt;/div>
+      &lt;figcaption class="absolute gutter push w-1 pin-bc pad-b-1-2 pad-t-1-2">Image caption two&lt;/figcaption>
+    &lt;/figure>
+  &lt;/div>
+
+  &lt;div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4">
+    &lt;figure class="relative push-0">
+      &lt;div class="embed embed-1by1">
+        &lt;img class="img-flex embed-item" src="../../images/image-6.jpg" alt="">
       &lt;/div>
       &lt;figcaption class="absolute gutter push w-1 pin-bc pad-b-1-2 pad-t-1-2">Image caption two&lt;/figcaption>
     &lt;/figure>

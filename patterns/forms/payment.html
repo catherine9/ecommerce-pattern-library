@@ -13,17 +13,6 @@
 <body>
 
   <fieldset>
-    <legend class="bold max-length pad-t push giga">Make your Payment</legend>
-
-    <div class="wrapper grid grid-middle pad-t-1-4">
-      <div class="unit gutter-1-2 push unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-        <label class="push-1-8" for="card">Card Number</label>
-        <input id="card" type="number">
-      </div>
-      <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
-        <label class="push-1-8" for="maiden">Mothers maiden name</label>
-        <input id="maiden" name="city">
-      </div>
       <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
         <label class="push-1-8" for="information">Payment</label>
         <select name="payment" id="information">
@@ -31,12 +20,13 @@
           <option>Master</option>
           <option>Visa</option>
         </select>
+        <i class="icon i-48">
+          <svg><use xlink:href="../../images/payment.svg#mastercard"></use></svg>
+        </i>
+        <i class="icon i-48">
+          <svg><use xlink:href="../../images/payment.svg#visa"></use></svg>
+        </i>
       </div>
-      <div class="unit gutter-1-2 push pad-t-1-2 unit xs-1 s-1 m-1-2 l-1-2">
-        <label class="push-1-8" for="expire">Expiration date</label>
-        <input class="push-0" id="expire" type="number">
-      </div>
-    </div>
   </fieldset>
 
 </body>

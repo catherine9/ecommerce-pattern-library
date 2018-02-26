@@ -12,16 +12,14 @@
   <link rel="stylesheet" href="css/form.css">
 </head>
   <body>
-    <fieldset class="wrapper radio gutter-1-2">
-      <legend class="giga pad-b-1-4 pad-t">Have you ever sold your art online before?</legend>
-      <div class="pad-b-1-2">
-        <input id="driver-yes" type="radio" name="fav-button">
-        <label for="driver-yes">Yes</label>
-
-        <input id="driver-no" type="radio" name="fav-button">
-        <label for="driver-no">No</label>
-      </div>
-    </fieldset>
+    <div class="push-1-2 pad-t-1-2">
+      <input type="checkbox" id="agree" required aria-describedby="agree-error">
+      <label for="agree">Do you agree to the following terms?</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/extra.svg#error"/></svg></i>
+        <span class="icon-label">Please agree</span>
+      </p>
+    </div>
 
   </body>
 </html>

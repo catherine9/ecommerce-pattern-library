@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1519657074723
+ * @version 1519670386726
  */
-const patternManifest_1519657074723 = {
+const patternManifest_1519670386725 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -674,6 +674,12 @@ const patternManifest_1519657074723 = {
       "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
+          "name": "agree",
+          "namePretty": "Agree",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms/agree.html",
+          "localPath": "patterns/forms/agree.html"
+        },
+        {
           "name": "box-and-submit",
           "namePretty": "Box and submit",
           "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms/box-and-submit.html",
@@ -786,5 +792,5 @@ const patternManifest_1519657074723 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519657074723);
+patternBotIncludes(patternManifest_1519670386725);
 }());
