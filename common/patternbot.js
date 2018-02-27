@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1519695564006
+ * @version 1519755698795
  */
-const patternManifest_1519695564006 = {
+const patternManifest_1519755698795 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -532,9 +532,14 @@ const patternManifest_1519695564006 = {
     },
     "icons": [
       "connect",
+      "alert",
+      "hamburger",
+      "design",
       "earn",
       "facebook",
-      "design",
+      "mastercard",
+      "search",
+      "visa",
       "twitter",
       "instagram",
       "sell"
@@ -555,11 +560,10 @@ const patternManifest_1519695564006 = {
       "icons": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/images/icons.svg"
     },
     "logos": {
-      "sizeLarge": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/images/logo.svg",
+      "sizeLarge": false,
       "size64": false,
       "size32": false,
-      "size16": false,
-      "sizeLargeLocal": "logo.svg"
+      "size16": false
     },
     "patterns": [
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/banner",
@@ -655,7 +659,9 @@ const patternManifest_1519695564006 = {
           "namePretty": "Icon card",
           "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/cards/icon-card.html",
           "localPath": "patterns/cards/icon-card.html",
-          "readme": {}
+          "readme": {
+            "width": 300
+          }
         }
       ],
       "md": [
@@ -806,5 +812,5 @@ const patternManifest_1519695564006 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519695564006);
+patternBotIncludes(patternManifest_1519755698795);
 }());

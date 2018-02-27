@@ -8,7 +8,7 @@ html {
 
 .is-validated input:invalid,
 input[type="checkbox"]:invalid + label::before {
-  border-color: #f33;
+  border-color: var(--color-extra);
 }
 
 .error-message {

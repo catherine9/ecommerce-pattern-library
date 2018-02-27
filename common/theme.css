@@ -41,3 +41,8 @@ h6 {
   font-family: var(--font-secondary);
   color: var(--color-primary);
 }
+
+mark {
+  background-color: var(--color-accent);
+  font-family: var(--font-secondary);
+}
