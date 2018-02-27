@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1519670386726
+ * @version 1519695564006
  */
-const patternManifest_1519670386725 = {
+const patternManifest_1519695564006 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -755,10 +755,24 @@ const patternManifest_1519670386725 = {
       "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search",
       "html": [
         {
+          "name": "navigation",
+          "namePretty": "Navigation",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/navigation.html",
+          "localPath": "patterns/search/navigation.html"
+        },
+        {
           "name": "search-bar",
           "namePretty": "Search bar",
           "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/search-bar.html",
-          "localPath": "patterns/search/search-bar.html"
+          "localPath": "patterns/search/search-bar.html",
+          "readme": {}
+        },
+        {
+          "name": "toggle-nav",
+          "namePretty": "Toggle nav",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/toggle-nav.html",
+          "localPath": "patterns/search/toggle-nav.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -792,5 +806,5 @@ const patternManifest_1519670386725 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519670386725);
+patternBotIncludes(patternManifest_1519695564006);
 }());
