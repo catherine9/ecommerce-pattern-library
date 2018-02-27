@@ -45,4 +45,5 @@ h6 {
 mark {
   background-color: var(--color-accent);
   font-family: var(--font-secondary);
+  color: #fff;
 }

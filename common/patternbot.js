@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1519755698795
+ * @version 1519771627080
  */
-const patternManifest_1519755698795 = {
+const patternManifest_1519771627079 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -761,6 +761,12 @@ const patternManifest_1519755698795 = {
       "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search",
       "html": [
         {
+          "name": "breadcrumbs",
+          "namePretty": "Breadcrumbs",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/breadcrumbs.html",
+          "localPath": "patterns/search/breadcrumbs.html"
+        },
+        {
           "name": "navigation",
           "namePretty": "Navigation",
           "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/navigation.html",
@@ -812,5 +818,5 @@ const patternManifest_1519755698795 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519755698795);
+patternBotIncludes(patternManifest_1519771627079);
 }());
