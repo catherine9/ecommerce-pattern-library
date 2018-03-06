@@ -2,21 +2,25 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Navigation</title>
+  <title>Header</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="../../common/modules.css">
   <link rel="stylesheet" href="../../common/grid.css">
   <link rel="stylesheet" href="../../common/type.css">
   <link rel="stylesheet" href="../../common/theme.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,400i" rel="stylesheet">
-  <link rel="stylesheet" href="css/navigation.css">
-  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="../css/buttons.css">
 </head>
 <body>
   <header>
-    <h1 class="yotta list-group-inline push-0 bold">DigiArt</h1>
-    <nav>
-      <ul class="nav list-group-inline push-0">
+    <nav class="list-group-inline">
+    <h1 class="push-0 text-left ib">
+      <i class="push-0 list-group-inline icon i-192">
+        <svg><use xlink:href="../../images/icons.svg#logo"/></svg>
+      </i>
+    </h1>
+      <ul class="gutter-2 nav push-0 list-group-inline ib">
         <li><a class="ib gutter-2" href="#">About</a></li>
         <li><a class="ib gutter-2" href="#">Prices</a></li>
         <li><a class="ib gutter-2" href="#">Collection</a></li>
