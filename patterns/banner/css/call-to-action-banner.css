@@ -7,7 +7,7 @@
 
 .info {
   position: absolute;
-  bottom: 1%;
+  bottom: -10%;
   left: 15%;
 }
 
@@ -16,5 +16,5 @@ h1 {
 }
 
 p {
-  color: var(--color-neutral);
+  color: var(--color-accent);
 }
