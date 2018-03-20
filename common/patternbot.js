@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1521460940525
+ * @version 1521565741187
  */
-const patternManifest_1521460940525 = {
+const patternManifest_1521565741187 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -573,20 +573,20 @@ const patternManifest_1521460940525 = {
       "bodyBasic": ""
     },
     "icons": [
-      "alert",
-      "email",
-      "earn",
-      "facebook",
-      "connect",
       "design",
+      "alert",
+      "connect",
+      "earn",
+      "email",
+      "logo",
+      "facebook",
+      "instagram",
       "mastercard",
+      "sell",
       "search",
       "hamburger",
-      "instagram",
-      "visa",
-      "sell",
-      "logo",
-      "twitter"
+      "twitter",
+      "visa"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -619,7 +619,13 @@ const patternManifest_1521460940525 = {
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos",
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search"
     ],
-    "pages": []
+    "pages": [
+      {
+        "name": "home.html",
+        "namePretty": "Home",
+        "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/pages/home.html"
+      }
+    ]
   },
   "userPatterns": [
     {
@@ -919,5 +925,5 @@ const patternManifest_1521460940525 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521460940525);
+patternBotIncludes(patternManifest_1521565741187);
 }());
