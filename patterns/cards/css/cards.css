@@ -4,3 +4,11 @@
   font-family: var(--font-secondary);
   background-color: #fff;
 }
+
+body {
+  background-color: var(--color-neutral);
+}
+
+p {
+  font-family: var(--font-secondary);
+}
