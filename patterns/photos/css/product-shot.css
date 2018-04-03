@@ -14,3 +14,7 @@ figcaption {
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
 }
+
+img {
+  border-radius: 4px;
+}

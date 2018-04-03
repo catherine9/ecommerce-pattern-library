@@ -9,25 +9,33 @@
   <link rel="stylesheet" href="../../common/type.css">
   <link rel="stylesheet" href="../../common/theme.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,400i" rel="stylesheet">
-  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="css/toggle-nav.css">
+  <link rel="stylesheet" href="../buttons/css/buttons.css">
 </head>
 <body>
-  <header class="masthead push-0" role="banner">
-    <a class="logo block island-1-2 peta" href="#">
-      <i class="push-0 icon i-128">
-        <svg><use xlink:href="../../images/icons.svg#logo"></use></svg>
+
+<header>
+  <h1 class="pad-b-1-2 pad-t-1-2 push-0">
+    <i class="icon i-128">
+      <svg><use xlink:href="../../images/icons.svg#logo"/></svg>
+    </i>
+  </h1>
+  <div class="header">
+    <input type="checkbox" class="nav-check" id="nav-check">
+    <label class="hide-custom-input nav-label" for="nav-check">
+      <i class="nav-open icon i-64">
+        <svg><use xlink:href="../../images/icons.svg#hamburger"/></svg>
       </i>
-      <span class="icon-label bold peta">DigiArt</span>
-    </a>
-    <nav class="nav pad-t-1-2 pad-b-1-2 giga" role="navigation" id="nav">
-      <ul class="list-group-inline push-0">
-        <li class="gutter-1-2 current"><a href="#about">About</a></li>
-        <li class="gutter-1-2"><a href="#prices">Prices</a></li>
-        <li class="gutter-1-2"><a href="#collection">Collection</a></li>
-        <li class="gutter-1-2"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-</nav>
+    </label>
+    <nav class="nav push-0">
+    <ul class="list-group push-0">
+      <li><a class="ib gutter-2" href="#">Home</a></li>
+      <li><a class="ib gutter-2" href="#">About</a></li>
+      <li><a class="ib gutter-2" href="#">Products</a></li>
+      <li><a class="ib gutter-2" href="#">Membership</a></li>
+    </ul>
+  </nav>
+</div>
+</header>
 </body>
 </html>

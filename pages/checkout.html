@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Checkout .DigiArt</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="../common/patternbot.js"></script>
+  </head>
+  <body>
+    <script type="application/json" data-pattern="header/header">
+    {
+    ".current[class]": "gutter-1-2, push-0"
+    }
+    </script>
+    <main class="max-length">
+      <script type="application/json" data-pattern="forms/form">
+      {
+        "h1": "Please fill out the following"
+      }
+      </script>
+      <script type="application/json" data-pattern="forms/form">
+      {
+        "label": "Last Name"
+      }
+
+      </script>
+
+      <div class="grid grid-middle">
+        <div class="unit xs-1 s-1 m-1-3 l-1-3">
+      <script type="application/json" data-pattern="forms/form">
+      {
+        "label": "Age",
+        "span": "Input your age"
+      }
+
+      </script>
+      <script type="application/json" data-pattern="forms/form">
+      {
+        "label": "Gender",
+        "span": "Input your gender"
+      }
+
+      </script>
+    </div>
+  </div>
+  <script type="application/json" data-pattern="forms/drop-down"></script>
+  <script type="application/json" data-pattern="forms/radio-button"></script>
+  <script type="application/json" data-pattern="forms/radio-button">
+  {
+    "legend": "Do you consider your art detailed?"
+  }
+  </script>
+  <script type="application/json" data-pattern="forms/payment"></script>
+  <script type="application/json" data-pattern="forms/box-and-submit"></script>
+  <script type="application/json" data-pattern="forms/agree"></script>
+    </main>
+    <script type="application/json" data-pattern="footer/footer"></script>

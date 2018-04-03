@@ -1,46 +1,53 @@
-.banner-info {
-  max-width: 19em;
+.btn-ghost {
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
 }
 
-.banner-content {
-  z-index: 10;
+.btn-ghost:hover {
+  background-color: #97a49b;
+  color: #495562;
+  border-color: #efefef;
 }
 
-.banner-icon {
-  display: none;
+.banner {
+  position: relative;
+  color: #fff;
+  background-color: #495562;
 }
 
-.banner::after,
-.banner::before {
-  left: 0;
-  height: 300%;
+.img-flex {
+  width: 100%;
+  background-size: cover;
+}
+
+.info {
   position: absolute;
-  top: 0;
-  width: 200%;
-
-}
-
-.banner::after {
-  left: 50%;
-  background-image: linear-gradient(to top right, rgba(124, 52, 94, .8), rgba(124, 52, 94, 1));
-  transform-origin: top left;
-  transform: rotate(33deg) translateY(-30%);
-}
-
-@media only screen and (min-width: 38em) {
-
-  .banner {
-    min-height: 0;
-  }
-
+  top: 10;
+  left: 5;
 }
 
 @media only screen and (min-width: 60em) {
 
-  .banner-icon {
-    bottom: -24px;
-    display: block;
-    right: 10%;
-    z-index: 11;
-    color: var(--color-primary-light);
+  .banner {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+    background-color: transparent;
   }
+
+  .info {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: #fff;
+    width: 100%;
+    transform: translate(-50%);
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, .1), rgba(73, 85, 98, .9));
+  }
+
+  .button {
+    text-align: right;
+  }
+
+}
