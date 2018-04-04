@@ -1,33 +1,25 @@
-.btn-ghost {
-  color: #fff;
-  border-color: #fff;
-  background-color: transparent;
-}
-
-.btn-ghost:hover {
-  background-color: #97a49b;
-  color: #495562;
-  border-color: #efefef;
+.banner-text {
+  display: block;
+  position: absolute;
+  bottom: 10;
+  width: 100%;
 }
 
 .banner {
+  width: 100%;
+  text-align: center;
   position: relative;
-  color: #fff;
-  background-color: #495562;
 }
 
 .img-flex {
   width: 100%;
-  background-size: cover;
 }
 
-.info {
-  position: absolute;
-  top: 10;
-  left: 5;
+p {
+  font-family: var(--font-secondary);
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
 
   .banner {
     position: relative;
@@ -36,7 +28,7 @@
     background-color: transparent;
   }
 
-  .info {
+  .banner-text {
     position: absolute;
     bottom: 0;
     left: 50%;

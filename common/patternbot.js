@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1522713224097
+ * @version 1522863366562
  */
-const patternManifest_1522713224097 = {
+const patternManifest_1522863366561 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -573,20 +573,21 @@ const patternManifest_1522713224097 = {
       "bodyBasic": ""
     },
     "icons": [
-      "alert",
-      "design",
       "connect",
+      "design",
       "earn",
-      "email",
       "facebook",
+      "cart",
+      "alert",
+      "email",
       "instagram",
+      "hamburger",
+      "sell",
       "logo",
+      "twitter",
       "mastercard",
       "search",
-      "sell",
-      "twitter",
-      "visa",
-      "hamburger"
+      "visa"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -649,12 +650,6 @@ const patternManifest_1522713224097 = {
           "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/banner/call-to-action-banner.html",
           "localPath": "patterns/banner/call-to-action-banner.html",
           "readme": {}
-        },
-        {
-          "name": "section-banner",
-          "namePretty": "Section banner",
-          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/banner/section-banner.html",
-          "localPath": "patterns/banner/section-banner.html"
         }
       ],
       "md": [
@@ -935,5 +930,5 @@ const patternManifest_1522713224097 = {
   }
 };
 
-patternBotIncludes(patternManifest_1522713224097);
+patternBotIncludes(patternManifest_1522863366561);
 }());

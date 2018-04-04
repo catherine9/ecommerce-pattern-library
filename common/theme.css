@@ -47,3 +47,12 @@ mark {
   font-family: var(--font-secondary);
   color: #fff;
 }
+
+p {
+  font-family: var(--font-secondary);
+}
+
+.btn-ghost {
+  border-color: var(--color-primary);
+  border-radius: 4px;
+}

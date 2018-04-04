@@ -818,18 +818,35 @@
 
 </section>
 
-        <section class="pattern" id="banner" role="tabpanel" hidden aria-hidden="true" >
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
+        <section class="pattern" id="banner" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
     <h2 class="pattern-name exa push-1-4" style="color: #24619d; font-family: &quot;Merriweather&quot;, serif;">Banner</h2>
-      <nav class="pattern-nav">
-        <ol class="list-group-inline push-1-4 pad-b-1-4">
-            <li><a href="#banner--call-to-action-banner">Call to action banner</a></li>
-            <li><a href="#banner--section-banner">Section banner</a></li>
-        </ol>
-      </nav>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="banner-call-to-action-banner-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="banner/call-to-action-banner" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/banner/call-to-action-banner.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
   </div>
 
-      <div class="pattern-desc milli island" >
+      <div class="pattern-desc milli island" style="">
         <div class="max-length"><p>The call to action will guide the user to a different page. The banner will only input small information and a call to action button to link to the form where the person will sign-up. Using an image to draw attention about what the site is selling.</p>
 </div>
       </div>
@@ -837,36 +854,6 @@
   
 
     <div class="pattern-details " id="banner--call-to-action-banner" style="">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
-          <h3 class="pattern-name tera push-1-8">Call to action banner</h3>
-            <ul class="list-group-inline gutter absolute pin-cr">
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="banner-call-to-action-banner-code-sample">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-code"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="banner/call-to-action-banner" hidden>
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-copy"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/banner/call-to-action-banner.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-pop-out"></use></svg>
-                    </i>
-                  </a>
-                </li>
-            </ul>
-        </div>
-          <div class="pattern-desc milli island" style="">
-            <div class="max-length"><p>The call to action will guide the user to a different page. The banner will only input small information and a call to action button to link to the form where the person will sign-up. Using an image to draw attention about what the site is selling.</p>
-</div>
-          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
@@ -895,82 +882,18 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="banner-call-to-action-banner-code-sample-copy-chunk">&lt;div class="banner embed embed-24by10 push-1-2"&gt;
-  &lt;img class="embed-item" src="../../images/banner.jpg" alt="">
-  &lt;div class="wrapper grid grid-middle absolute pin-c">
-    &lt;div class="unit xs-1 s-1 m-1-2 l-1-2">
-      &lt;h1 class="pad-t-1-2 push-none tenamega">Express and sell&lt;/h1>
-      &lt;p class="pad-t-1-2 giga">Explore the world of DigiArt.&lt;/p>
-
-      &lt;div class="button pad-t-1-2 pad-b unit xs-1 s-1 m-1-2 l-1-2">
-        &lt;a class="btn btn-ghost" href="#">Sign-up now&lt;/a>
+              <code><pre id="banner-call-to-action-banner-code-sample-copy-chunk">&lt;div class="banner"&gt;
+  &lt;img class="img-flex" src="../../images/banner.jpg" alt="">
+  &lt;div class="info w-1">
+    &lt;div class="grid grid-middle wrapper pin-c">
+      &lt;div class="unit xs-1 s-1 m-1-2 l-1-2">
+        &lt;h1 class="pad-t-1-2 push-none tenamega">Express and sell&lt;/h1>
+        &lt;p class="pad-t-1-2 giga">Explore the world of DigiArt.&lt;/p>
+        &lt;div class="button pad-t-1-2 pad-b unit xs-1 s-1 m-1-2 l-1-2">
+          &lt;a class="btn btn-ghost" href="#">Sign-up now&lt;/a>
+        &lt;/div>
       &lt;/div>
     &lt;/div>
-  &lt;/div>
-&lt;/div>
-</pre></code>
-            </div>
-          </div>
-      </div>
-    </div>
-    <div class="pattern-details " id="banner--section-banner" style="">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
-          <h3 class="pattern-name tera push-1-8">Section banner</h3>
-            <ul class="list-group-inline gutter absolute pin-cr">
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="banner-section-banner-code-sample">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-code"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="banner/section-banner" hidden>
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-copy"></use></svg>
-                    </i>
-                  </button>
-                </li>
-                <li>
-                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/banner/section-banner.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                    <i class="icon i-18">
-                      <svg><use xlink:href="#icon-pop-out"></use></svg>
-                    </i>
-                  </a>
-                </li>
-            </ul>
-        </div>
-
-      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
-        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
-            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/banner/section-banner.html" scrolling="no" data-inject-css=" " ></iframe>
-              <div class="resizeable-pattern-length">
-                <div class="resize-handle resize-handle-left" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle" /></svg>
-                  </i>
-                </div>
-                <div class="resize-handle resize-handle-right" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#icon-resize-handle" /></svg>
-                  </i>
-                </div>
-              </div>
-          </div>
-        </div>
-
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="banner-section-banner-code-sample" tabindex="-1">
-            <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#banner-section-banner-code-sample-copy-chunk" hidden>
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-copy"></use></svg>
-                </i>
-              </button>
-              <code><pre id="banner-section-banner-code-sample-copy-chunk">&lt;div class="action"&gt;
-  &lt;div class="banner embed embed-24by10 push-1-2">
-    &lt;img class="embed-item" src="../../images/section-banner.jpg" alt="">
   &lt;/div>
 &lt;/div>
 </pre></code>
@@ -1374,40 +1297,23 @@
   &lt;link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,400i" rel="stylesheet">
   &lt;link rel="stylesheet" href="footer.css">
 
-  &lt;footer role="contentinfo" class="footer pad-t-1-2 pad-b-1-2">
+  &lt;footer role="contentinfo" class="footer push-2">
     &lt;section class="contact pad-t pad-b" id="contact" tabindex="0">
       &lt;div class="wrapper">
-        &lt;p class="giga max-length not-centered gutter-1-2">Send us your questions&lt;/p>
-
-        &lt;form class="grid" method="post" action="#">
-          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            &lt;label for="name" class="push-1-8">Your name&lt;/label>
-            &lt;input id="name" required>
-          &lt;/div>
-          &lt;div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            &lt;label for="email" class="push-1-8">E-mail address&lt;/label>
-            &lt;input id="email" type="text" required>
-          &lt;/div>
-        &lt;/form>
-      &lt;/div>
-      &lt;div class="unit xs-1 text-center">
-        &lt;button class="btn mega" type="submit">Send&lt;/button>
-        &lt;div class="text-left wrapper gutter-1-2">
+        &lt;div>
           &lt;small class="push-0 micro">&#xA9; &lt;i>DigiArt&lt;/i>, 2018.&lt;/small>
           &lt;small class="milli push-0 gutter-1-2"> For more information email us at diginfo@gmail.com or call 1 (888)-723-7771.&lt;/small>
-          &lt;i class="push-0 list-group-inline icon i-64">
-                &lt;svg>&lt;use xlink:href="../../images/icons.svg#facebook"/>&lt;/svg>
-              &lt;/i>
-          &lt;i class="push-0 list-group-inline icon i-64">
-                &lt;svg>&lt;use xlink:href="../../images/icons.svg#twitter"/>&lt;/svg>
-              &lt;/i>
-          &lt;i class="push-0 list-group-inline icon i-64">
-                &lt;svg>&lt;use xlink:href="../../images/icons.svg#instagram"/>&lt;/svg>
-              &lt;/i>
+          &lt;i class="push-0 list-group-inline icon i-48">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#facebook"/>&lt;/svg>
+          &lt;/i>
+          &lt;i class="push-0 list-group-inline icon i-48">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#twitter"/>&lt;/svg>
+          &lt;/i>
+          &lt;i class="push-0 list-group-inline icon i-48">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#instagram"/>&lt;/svg>
+          &lt;/i>
         &lt;/div>
       &lt;/div>
-
-
     &lt;/section>
   &lt;/footer>
 &lt;/head>
@@ -1956,9 +1862,9 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="header-header-code-sample-copy-chunk">&lt;header&gt;
-  &lt;h1 class="pad-b-1-2 pad-t-1-2 push-0">
-    &lt;i class="icon i-128">
+              <code><pre id="header-header-code-sample-copy-chunk">&lt;header class="relative"&gt;
+  &lt;h1 class="pad-b-1-2 push-0 text-left">
+    &lt;i class="icon i-64">
       &lt;svg>&lt;use xlink:href="../../images/icons.svg#logo"/>&lt;/svg>
     &lt;/i>
   &lt;/h1>
@@ -1974,9 +1880,17 @@
         &lt;li>&lt;a class="ib gutter-2" href="#">Home&lt;/a>&lt;/li>
         &lt;li>&lt;a class="ib gutter-2" href="#">About&lt;/a>&lt;/li>
         &lt;li>&lt;a class="ib gutter-2" href="#">Products&lt;/a>&lt;/li>
-        &lt;li>&lt;a class="ib gutter-2" href="#">Membership&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="ib gutter-2" href="#">Checkout&lt;/a>&lt;/li>
       &lt;/ul>
     &lt;/nav>
+  &lt;/div>
+  &lt;div class="top-icons pin-rt">
+    &lt;i class="icon i-48">
+    &lt;svg>&lt;use xlink:href="../../images/icons.svg#search"/>&lt;/svg>
+  &lt;/i>
+    &lt;i class="icon i-64">
+    &lt;svg>&lt;use xlink:href="../../images/icons.svg#cart"/>&lt;/svg>
+  &lt;/i>
   &lt;/div>
 &lt;/header>
 </pre></code>
@@ -2149,56 +2063,40 @@
               <code><pre id="photos-product-shots-code-sample-copy-chunk">&lt;div&gt;
   &lt;div>
     &lt;h1 class="pad-t-1-2 bold text-center yotta">Print Gallery&lt;/h1>
+    &lt;p class="giga text-center gutter-1-2">Customize samples or be able to customize your own merchandise with your design&lt;/p>
   &lt;/div>
 
   &lt;section class="grid">
-    &lt;div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 xl-1-3 island-1-4">
-      &lt;figure class="relative push-0">
-        &lt;div class="embed embed-1by1">
-          &lt;img class="img-flex embed-item" src="../../images/canada-150-illustration.jpg" alt="">
-        &lt;/div>
-        &lt;figcaption class="exa bold gutter push w-1 pad-b-1-2 pad-t-1-2">New port&lt;/figcaption>
-        &lt;span class="btn btn-light">Click to view&lt;/span>
-      &lt;/figure>
-    &lt;/div>
-
-    &lt;div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 xl-1-3 island-1-4">
+    &lt;div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 island-1-4">
       &lt;figure class="relative push-0">
         &lt;div class="embed embed-1by1">
           &lt;img class="img-flex embed-item" src="../../images/illustration.jpg" alt="">
         &lt;/div>
         &lt;figcaption class="exa bold gutter push w-1 pad-b-1-2 pad-t-1-2">Mini Cooper&lt;/figcaption>
-        &lt;span class="btn btn-light">Click to view&lt;/span>
-      &lt;/figure>
-    &lt;/div>
-
-    &lt;div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 xl-1-3 island-1-4">
-      &lt;figure class="relative push-0">
-        &lt;div class="embed embed-1by1">
-          &lt;img class="img-flex embed-item" src="../../images/ice-cream-truck.jpg" alt="">
-        &lt;/div>
-        &lt;figcaption class="exa bold gutter-1-2 push w-1 pad-b-1-2 pad-t-1-2">Ice Cream truck&lt;/figcaption>
-        &lt;span class="btn btn-light">Click to view&lt;/span>
-      &lt;/figure>
-    &lt;/div>
-
-    &lt;div class="unit xs-1-2 s-1-2 m-1-3 l-1-3 xl-1-3 island-1-4">
-      &lt;figure class="relative push-0">
-        &lt;div class="embed embed-1by1">
-          &lt;img class="img-flex embed-item" src="../../images/image-3.jpg" alt="">
-        &lt;/div>
-        &lt;figcaption class="exa bold gutter-1-2 push w-1 pad-b-1-2 pad-t-1-2">Modern portrait&lt;/figcaption>
-        &lt;span class="btn btn-light">Click to view&lt;/span>
+        &lt;p class="italic milli">$29.99+free shipping&lt;/p>
+        &lt;span class="btn btn-ghost">Click to customize&lt;/span>
       &lt;/figure>
     &lt;/div>
 
     &lt;div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 island-1-4">
       &lt;figure class="relative push-0">
         &lt;div class="embed embed-1by1">
-          &lt;img class="img-flex embed-item" src="../../images/ice-cream.jpg" alt="">
+          &lt;img class="img-flex embed-item" src="../../images/ice-cream-truck.jpg" alt="">
         &lt;/div>
-        &lt;figcaption class="exa bold gutter push w-1 pad-b-1-2 pad-t-1-2">Want a scope?&lt;/figcaption>
-        &lt;span class="btn btn-light">Click to view&lt;/span>
+        &lt;figcaption class="exa bold gutter-1-2 push w-1 pad-b-1-2 pad-t-1-2">Ice Cream truck&lt;/figcaption>
+        &lt;p class="italic milli">$29.99+free shipping&lt;/p>
+        &lt;span class="btn btn-ghost">Click to customize&lt;/span>
+      &lt;/figure>
+    &lt;/div>
+
+    &lt;div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 island-1-4">
+      &lt;figure class="relative push-0">
+        &lt;div class="embed embed-1by1">
+          &lt;img class="img-flex embed-item" src="../../images/image-3.jpg" alt="">
+        &lt;/div>
+        &lt;figcaption class="exa bold gutter-1-2 push w-1 pad-b-1-2 pad-t-1-2">Modernism&lt;/figcaption>
+        &lt;p class="italic milli">$32.42+free shipping&lt;/p>
+        &lt;span class="btn btn-ghost">Click to customize&lt;/span>
       &lt;/figure>
     &lt;/div>
 
@@ -2208,17 +2106,8 @@
           &lt;img class="img-flex embed-item" src="../../images/ice-cream-shake.jpg" alt="">
         &lt;/div>
         &lt;figcaption class="exa bold gutter push w-1 pad-b-1-2 pad-t-1-2">Time to shake&lt;/figcaption>
-        &lt;span class="btn btn-light">Click to view&lt;/span>
-      &lt;/figure>
-    &lt;/div>
-
-    &lt;div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 island-1-4">
-      &lt;figure class="relative push-0">
-        &lt;div class="embed embed-1by1">
-          &lt;img class="img-flex embed-item" src="../../images/garnet.jpg" alt="">
-        &lt;/div>
-        &lt;figcaption class="exa bold gutter push w-1 pad-b-1-2 pad-t-1-2">Minimalist pop culture&lt;/figcaption>
-        &lt;span class="btn btn-light">Click to view&lt;/span>
+        &lt;p class="italic milli">$15.00+free shipping&lt;/p>
+        &lt;span class="btn btn-ghost">Click to customize&lt;/span>
       &lt;/figure>
     &lt;/div>
 
@@ -2227,8 +2116,9 @@
         &lt;div class="embed embed-1by1">
           &lt;img class="img-flex embed-item" src="../../images/siamese-cat-image.jpg" alt="">
         &lt;/div>
-        &lt;figcaption class="exa bold gutter push w-1 pad-b-1-2 pad-t-1-2">Cat lover&lt;/figcaption>
-        &lt;span class="btn btn-light">Click to view&lt;/span>
+        &lt;figcaption class="exa bold gutter push w-1 pad-b-1-2 pad-t-1-2">Lover&lt;/figcaption>
+        &lt;p class="italic milli">$32.99+free shipping&lt;/p>
+        &lt;span class="btn btn-ghost">Click to customize&lt;/span>
       &lt;/figure>
     &lt;/div>
 
@@ -2237,8 +2127,9 @@
         &lt;div class="embed embed-1by1">
           &lt;img class="img-flex embed-item" src="../../images/dog.jpg" alt="">
         &lt;/div>
-        &lt;figcaption class="exa bold gutter push w-1 pad-b-1-2 pad-t-1-2">Animal lovers&lt;/figcaption>
-        &lt;span class="btn btn-light">Click to view&lt;/span>
+        &lt;figcaption class="exa bold gutter push w-1 pad-b-1-2 pad-t-1-2">Fighter&lt;/figcaption>
+        &lt;p class="italic milli">$29.99+free shipping&lt;/p>
+        &lt;span class="btn btn-ghost">Click to customize&lt;/span>
       &lt;/figure>
     &lt;/div>
 

@@ -93,4 +93,8 @@ header {
     display: inline-block;
   }
 
+  .top-icons {
+    display: hidden;
+  }
+
 }
