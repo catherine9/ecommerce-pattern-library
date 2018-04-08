@@ -52,7 +52,10 @@ p {
   font-family: var(--font-secondary);
 }
 
-.btn-ghost {
-  border-color: var(--color-primary);
-  border-radius: 4px;
+.heading {
+  font-family: var(--font-primary);
+}
+
+.content {
+  font-family: var(--font-secondary);
 }

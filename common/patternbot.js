@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1522863366562
+ * @version 1523198575890
  */
-const patternManifest_1522863366561 = {
+const patternManifest_1523198575890 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -617,8 +617,7 @@ const patternManifest_1522863366561 = {
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/footer",
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms",
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/header",
-      "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos",
-      "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search"
+      "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos"
     ],
     "pages": [
       {
@@ -871,43 +870,6 @@ const patternManifest_1522863366561 = {
         }
       ],
       "css": []
-    },
-    {
-      "name": "search",
-      "namePretty": "Search",
-      "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search",
-      "html": [
-        {
-          "name": "breadcrumbs",
-          "namePretty": "Breadcrumbs",
-          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/breadcrumbs.html",
-          "localPath": "patterns/search/breadcrumbs.html",
-          "readme": {}
-        },
-        {
-          "name": "search-bar",
-          "namePretty": "Search bar",
-          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/search-bar.html",
-          "localPath": "patterns/search/search-bar.html",
-          "readme": {}
-        },
-        {
-          "name": "toggle-nav",
-          "namePretty": "Toggle nav",
-          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/toggle-nav.html",
-          "localPath": "patterns/search/toggle-nav.html",
-          "readme": {}
-        }
-      ],
-      "md": [
-        {
-          "name": "readme",
-          "namePretty": "Readme",
-          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/search/README.md",
-          "localPath": "patterns/search/README.md"
-        }
-      ],
-      "css": []
     }
   ],
   "config": {
@@ -930,5 +892,5 @@ const patternManifest_1522863366561 = {
   }
 };
 
-patternBotIncludes(patternManifest_1522863366561);
+patternBotIncludes(patternManifest_1523198575890);
 }());
