@@ -59,3 +59,7 @@ p {
 .content {
   font-family: var(--font-secondary);
 }
+
+.btn-light {
+  background-color: var(--color-primary-light);
+}
