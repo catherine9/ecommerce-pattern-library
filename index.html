@@ -210,6 +210,16 @@
                   </div>
                 </a>
               </li>
+              <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="product-details" href="#product-details">
+                  <div class="relative">
+                    <span>Product details</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
           <li class="pad-t-1-2" role="presentation">
             <button class="nav-show-all gutter pad-t-1-4 pad-b-1-4 block kilo" id="patternbot-nav-show-all" aria-pressed="false" title="Show all patterns" aria-label="Show all patterns">
               <span class="nav-show-all-wrap relative block">Show all</span>
@@ -2137,6 +2147,153 @@
     &lt;/ul>
   &lt;/ul>
 &lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="product-details" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #24619d; font-family: &quot;Merriweather&quot;, serif;">Product details</h2>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="product-details-details-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="product-details/details" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/product details/details.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
+  </div>
+
+
+  
+
+    <div class="pattern-details " id="product-details--details" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/product details/details.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="product-details-details-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#product-details-details-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="product-details-details-code-sample-copy-chunk">&lt;html lang="en-ca"&gt;
+&lt;head>
+  &lt;meta charset="utf-8">
+  &lt;title>Product deatils&lt;/title>
+  &lt;meta name="viewport" content="width=device-width,initial-scale=1">
+  &lt;link rel="stylesheet" href="../../common/modules.css">
+  &lt;link rel="stylesheet" href="../../common/grid.css">
+  &lt;link rel="stylesheet" href="../../common/type.css">
+  &lt;link rel="stylesheet" href="../../common/theme.css">
+  &lt;link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,400i" rel="stylesheet">
+  &lt;link href="css/details.css" rel="stylesheet">
+
+
+  &lt;main class="container">
+
+    &lt;div class="grid grid-middle">
+      &lt;div class="left-column gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+        &lt;img class="img-flex" src="../../images/dog.jpg" alt="">
+      &lt;/div>
+
+
+      &lt;div class="right-column gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+
+
+        &lt;div class="product-description">
+          &lt;h1>Dog image&lt;/h1>
+          &lt;p>This nice dog will brighten up your day with these cool shades&lt;/p>
+        &lt;/div>
+
+
+        &lt;div class="product-configuration">
+
+
+          &lt;div class="product-color">
+            &lt;span>Color&lt;/span>
+
+            &lt;div class="color-choose">
+              &lt;div>
+                &lt;input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                &lt;label for="red">&lt;span>&lt;/span>&lt;/label>
+              &lt;/div>
+              &lt;div>
+                &lt;input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                &lt;label for="blue">&lt;span>&lt;/span>&lt;/label>
+              &lt;/div>
+              &lt;div>
+                &lt;input data-image="black" type="radio" id="black" name="color" value="black">
+                &lt;label for="black">&lt;span>&lt;/span>&lt;/label>
+              &lt;/div>
+            &lt;/div>
+
+          &lt;/div>
+
+
+          &lt;div class="cable-config">
+            &lt;span>Cable configuration&lt;/span>
+
+            &lt;div class="cable-choose">
+              &lt;button>Straight&lt;/button>
+              &lt;button>Coiled&lt;/button>
+              &lt;button>Long-coiled&lt;/button>
+            &lt;/div>
+
+            &lt;a class="gutter-1-2 btn btn-ghost" href="#">Checkout&lt;/a>
+          &lt;/div>
+        &lt;/div>
+
+
+        &lt;div class="product-price">
+          &lt;span>48$&lt;/span>
+          &lt;a href="#" class="cart-btn btn btn-light">Add to cart&lt;/a>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+
+  &lt;/main>
+
+&lt;/head>
+&lt;/html>
 </pre></code>
             </div>
           </div>

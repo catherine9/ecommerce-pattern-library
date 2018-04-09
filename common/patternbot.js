@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library
- * @version 1523275881731
+ * @version 1523278452438
  */
-const patternManifest_1523275881731 = {
+const patternManifest_1523278452438 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -616,7 +616,8 @@ const patternManifest_1523275881731 = {
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/footer",
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/forms",
       "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/header",
-      "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos"
+      "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/photos",
+      "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/product details"
     ],
     "pages": [
       {
@@ -869,6 +870,46 @@ const patternManifest_1523275881731 = {
         }
       ],
       "css": []
+    },
+    {
+      "name": "product-details",
+      "namePretty": "Product details",
+      "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/product details",
+      "html": [
+        {
+          "name": "details",
+          "namePretty": "Details",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/product details/details.html",
+          "localPath": "patterns/product details/details.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "details",
+          "namePretty": "Details",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/product details/details.css",
+          "localPath": "patterns/product details/details.css"
+        },
+        {
+          "name": "grid",
+          "namePretty": "Grid",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/product details/grid.css",
+          "localPath": "patterns/product details/grid.css"
+        },
+        {
+          "name": "modules",
+          "namePretty": "Modules",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/product details/modules.css",
+          "localPath": "patterns/product details/modules.css"
+        },
+        {
+          "name": "type",
+          "namePretty": "Type",
+          "path": "/Users/catherinelegault/Dropbox/Graphic Design/Semester 4/Web Dev/ecommerce-pattern-library/patterns/product details/type.css",
+          "localPath": "patterns/product details/type.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -891,5 +932,5 @@ const patternManifest_1523275881731 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523275881731);
+patternBotIncludes(patternManifest_1523278452438);
 }());
