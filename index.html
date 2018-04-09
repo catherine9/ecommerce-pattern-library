@@ -252,6 +252,16 @@
                 </a>
               </li>
               <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/product-details.html" target="_blank">
+                  <div class="relative">
+                    <span>Product details</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
                 <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/products.html" target="_blank">
                   <div class="relative">
                     <span>Products</span>
@@ -2174,7 +2184,7 @@
               </button>
             </li>
             <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/product details/details.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/product-details/details.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-pop-out"></use></svg>
                 </i>
@@ -2192,7 +2202,7 @@
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
           <div class="resizeable-pattern relative" style="">
             <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/product details/details.html" scrolling="no" data-inject-css=" " ></iframe>
+            <iframe data-src="patterns/product-details/details.html" scrolling="no" data-inject-css=" " ></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -2228,15 +2238,15 @@
   &lt;link href="css/details.css" rel="stylesheet">
 
 
-  &lt;main class="container">
+  &lt;main class="wrapper">
 
-    &lt;div class="grid grid-middle">
-      &lt;div class="left-column gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+    &lt;div class="grid">
+      &lt;div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2">
         &lt;img class="img-flex" src="../../images/dog.jpg" alt="">
       &lt;/div>
 
 
-      &lt;div class="right-column gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+      &lt;div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2">
 
 
         &lt;div class="product-description">
@@ -2249,20 +2259,16 @@
 
 
           &lt;div class="product-color">
-            &lt;span>Color&lt;/span>
+            &lt;span>Background color choice&lt;/span>
 
             &lt;div class="color-choose">
               &lt;div>
                 &lt;input data-image="red" type="radio" id="red" name="color" value="red" checked>
-                &lt;label for="red">&lt;span>&lt;/span>&lt;/label>
+                &lt;label for="red">&lt;span>Red&lt;/span>&lt;/label>
               &lt;/div>
               &lt;div>
                 &lt;input data-image="blue" type="radio" id="blue" name="color" value="blue">
-                &lt;label for="blue">&lt;span>&lt;/span>&lt;/label>
-              &lt;/div>
-              &lt;div>
-                &lt;input data-image="black" type="radio" id="black" name="color" value="black">
-                &lt;label for="black">&lt;span>&lt;/span>&lt;/label>
+                &lt;label for="blue">&lt;span>Blue&lt;/span>&lt;/label>
               &lt;/div>
             &lt;/div>
 
@@ -2270,13 +2276,7 @@
 
 
           &lt;div class="cable-config">
-            &lt;span>Cable configuration&lt;/span>
-
-            &lt;div class="cable-choose">
-              &lt;button>Straight&lt;/button>
-              &lt;button>Coiled&lt;/button>
-              &lt;button>Long-coiled&lt;/button>
-            &lt;/div>
+            &lt;span>Sample&lt;/span>
 
             &lt;a class="gutter-1-2 btn btn-ghost" href="#">Checkout&lt;/a>
           &lt;/div>
