@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-  <head>
-    <meta charset="utf-8">
-    <title>Checkout .DigiArt</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="../common/patternbot.js"></script>
-  </head>
-  <body>
-    <script type="application/json" data-pattern="header/header">
+<head>
+  <meta charset="utf-8">
+  <title>Checkout .DigiArt</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+  <script type="application/json" data-pattern="header/header">
     {
-    ".current[class]": "gutter-1-2, push-0"
+      ".current[class]": "gutter-1-2, push-0"
     }
-    </script>
-    <main class="max-length">
-      <script type="application/json" data-pattern="forms/form">
+  </script>
+  <main class="max-length">
+    <script type="application/json" data-pattern="forms/form">
       {
         "h1": "Please fill out the following"
       }
-      </script>
-      <script type="application/json" data-pattern="forms/form">
+    </script>
+    <script type="application/json" data-pattern="forms/form">
       {
         "label": "Last Name"
       }
-
-      </script>
-
-  <script type="application/json" data-pattern="forms/drop-down"></script>
-  <script type="application/json" data-pattern="forms/radio-button"></script>
-  <script type="application/json" data-pattern="forms/radio-button">
-  {
-    "legend": "Do you live in Canada?"
-  }
-  </script>
-  <script type="application/json" data-pattern="forms/payment"></script>
-  <script type="application/json" data-pattern="forms/form">
-  {
-    "label": "Please fill out your card number on the front",
-    "span": "Input your number"
-  }
-  </script>
-  <script type="application/json" data-pattern="forms/agree"></script>
-  <script type="application/json" data-pattern="forms/box-and-submit"></script>
-    </main>
-    <script type="application/json" data-pattern="footer/footer"></script>
+    </script>
+    <script type="application/json" data-pattern="forms/drop-down"></script>
+    <script type="application/json" data-pattern="forms/radio-button"></script>
+    <script type="application/json" data-pattern="forms/radio-button">
+      {
+        "legend": "Do you live in Canada?"
+      }
+    </script>
+    <script type="application/json" data-pattern="forms/payment"></script>
+    <script type="application/json" data-pattern="forms/form">
+      {
+        "label": "Please fill out your card number on the front",
+        "span": "Input your number"
+      }
+    </script>
+    <script type="application/json" data-pattern="forms/agree"></script>
+    <script type="application/json" data-pattern="forms/box-and-submit"></script>
+  </main>
+  <script type="application/json" data-pattern="footer/footer"></script>
 </body>
 </html>
